@@ -1,0 +1,38 @@
+public class App {
+
+    public static String getFigure(int Value) {
+        String figure = "";
+
+        if (Value == 1)
+            return " *";
+
+        for (int x = 1; x <= Value; x++) {
+            for (int y = 1; y <= x; y++) {
+                figure += "";
+            }
+            figure += "\n";
+        }
+        return figure;
+    }
+
+    // Funcion que lee datos del usuario
+    public static int getIntegerValue(String message) {
+        do {
+            try {
+                System.out.print(message);
+                return (new java.util.Scanner(System.in)).nextInt();
+            } catch (Exception ex) {
+                System.out.println(ex.getMessage());
+            }
+        } while (true);
+    }
+    
+    }
+
+        /*int value = getIntegerValue("Ingresar un valor para la figura: ");
+        String figure = getFigure(value);
+        System.out.println("\n" + );
+
+        /*public static void main (String args[]){
+        Menu()
+        } */
