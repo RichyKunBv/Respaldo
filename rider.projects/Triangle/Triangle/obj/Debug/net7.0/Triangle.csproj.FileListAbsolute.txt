@@ -1,0 +1,15 @@
+/Users/ricardoescamilla/Desarrollo/rider.projects/Triangle/Triangle/bin/Debug/net7.0/Triangle
+/Users/ricardoescamilla/Desarrollo/rider.projects/Triangle/Triangle/bin/Debug/net7.0/Triangle.deps.json
+/Users/ricardoescamilla/Desarrollo/rider.projects/Triangle/Triangle/bin/Debug/net7.0/Triangle.runtimeconfig.json
+/Users/ricardoescamilla/Desarrollo/rider.projects/Triangle/Triangle/bin/Debug/net7.0/Triangle.dll
+/Users/ricardoescamilla/Desarrollo/rider.projects/Triangle/Triangle/bin/Debug/net7.0/Triangle.pdb
+/Users/ricardoescamilla/Desarrollo/rider.projects/Triangle/Triangle/obj/Debug/net7.0/Triangle.csproj.AssemblyReference.cache
+/Users/ricardoescamilla/Desarrollo/rider.projects/Triangle/Triangle/obj/Debug/net7.0/Triangle.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ricardoescamilla/Desarrollo/rider.projects/Triangle/Triangle/obj/Debug/net7.0/Triangle.AssemblyInfoInputs.cache
+/Users/ricardoescamilla/Desarrollo/rider.projects/Triangle/Triangle/obj/Debug/net7.0/Triangle.AssemblyInfo.cs
+/Users/ricardoescamilla/Desarrollo/rider.projects/Triangle/Triangle/obj/Debug/net7.0/Triangle.csproj.CoreCompileInputs.cache
+/Users/ricardoescamilla/Desarrollo/rider.projects/Triangle/Triangle/obj/Debug/net7.0/Triangle.dll
+/Users/ricardoescamilla/Desarrollo/rider.projects/Triangle/Triangle/obj/Debug/net7.0/refint/Triangle.dll
+/Users/ricardoescamilla/Desarrollo/rider.projects/Triangle/Triangle/obj/Debug/net7.0/Triangle.pdb
+/Users/ricardoescamilla/Desarrollo/rider.projects/Triangle/Triangle/obj/Debug/net7.0/Triangle.genruntimeconfig.cache
+/Users/ricardoescamilla/Desarrollo/rider.projects/Triangle/Triangle/obj/Debug/net7.0/ref/Triangle.dll
