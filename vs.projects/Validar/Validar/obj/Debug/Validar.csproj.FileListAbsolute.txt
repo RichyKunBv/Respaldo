@@ -1,0 +1,10 @@
+C:\Ñ\vs.projects\Validar\Validar\bin\Debug\Validar.exe.config
+C:\Ñ\vs.projects\Validar\Validar\bin\Debug\Validar.exe
+C:\Ñ\vs.projects\Validar\Validar\bin\Debug\Validar.pdb
+C:\Ñ\vs.projects\Validar\Validar\obj\Debug\Validar.csproj.AssemblyReference.cache
+C:\Ñ\vs.projects\Validar\Validar\obj\Debug\Validar.Form1.resources
+C:\Ñ\vs.projects\Validar\Validar\obj\Debug\Validar.Properties.Resources.resources
+C:\Ñ\vs.projects\Validar\Validar\obj\Debug\Validar.csproj.GenerateResource.cache
+C:\Ñ\vs.projects\Validar\Validar\obj\Debug\Validar.csproj.CoreCompileInputs.cache
+C:\Ñ\vs.projects\Validar\Validar\obj\Debug\Validar.exe
+C:\Ñ\vs.projects\Validar\Validar\obj\Debug\Validar.pdb
