@@ -1,0 +1,15 @@
+/Users/ricardoescamilla/Desarrollo/vs.projects/Tabla de Verdad/Tabla de Verdad/obj/Debug/net6.0/Tabla de Verdad.csproj.AssemblyReference.cache
+/Users/ricardoescamilla/Desarrollo/vs.projects/Tabla de Verdad/Tabla de Verdad/obj/Debug/net6.0/Tabla de Verdad.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ricardoescamilla/Desarrollo/vs.projects/Tabla de Verdad/Tabla de Verdad/obj/Debug/net6.0/Tabla de Verdad.AssemblyInfoInputs.cache
+/Users/ricardoescamilla/Desarrollo/vs.projects/Tabla de Verdad/Tabla de Verdad/obj/Debug/net6.0/Tabla de Verdad.AssemblyInfo.cs
+/Users/ricardoescamilla/Desarrollo/vs.projects/Tabla de Verdad/Tabla de Verdad/obj/Debug/net6.0/Tabla de Verdad.csproj.CoreCompileInputs.cache
+/Users/ricardoescamilla/Desarrollo/vs.projects/Tabla de Verdad/Tabla de Verdad/bin/Debug/net6.0/Tabla de Verdad
+/Users/ricardoescamilla/Desarrollo/vs.projects/Tabla de Verdad/Tabla de Verdad/bin/Debug/net6.0/Tabla de Verdad.deps.json
+/Users/ricardoescamilla/Desarrollo/vs.projects/Tabla de Verdad/Tabla de Verdad/bin/Debug/net6.0/Tabla de Verdad.runtimeconfig.json
+/Users/ricardoescamilla/Desarrollo/vs.projects/Tabla de Verdad/Tabla de Verdad/bin/Debug/net6.0/Tabla de Verdad.dll
+/Users/ricardoescamilla/Desarrollo/vs.projects/Tabla de Verdad/Tabla de Verdad/bin/Debug/net6.0/Tabla de Verdad.pdb
+/Users/ricardoescamilla/Desarrollo/vs.projects/Tabla de Verdad/Tabla de Verdad/obj/Debug/net6.0/Tabla de Verdad.dll
+/Users/ricardoescamilla/Desarrollo/vs.projects/Tabla de Verdad/Tabla de Verdad/obj/Debug/net6.0/refint/Tabla de Verdad.dll
+/Users/ricardoescamilla/Desarrollo/vs.projects/Tabla de Verdad/Tabla de Verdad/obj/Debug/net6.0/Tabla de Verdad.pdb
+/Users/ricardoescamilla/Desarrollo/vs.projects/Tabla de Verdad/Tabla de Verdad/obj/Debug/net6.0/Tabla de Verdad.genruntimeconfig.cache
+/Users/ricardoescamilla/Desarrollo/vs.projects/Tabla de Verdad/Tabla de Verdad/obj/Debug/net6.0/ref/Tabla de Verdad.dll
