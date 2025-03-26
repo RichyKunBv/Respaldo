@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "fj9D/86/59bluk134sfh3PUQ2tD4obfyVzg0v/iAnudgr2FhvZupA0BMXMUWD7TaJyrbA5+EVNSJsA83r2gjKA==",
+  "success": true,
+  "projectFilePath": "/Users/ricardoescamilla/Desarrollo/vs.projects/Caja De Cambio/Caja De Cambio/Caja De Cambio.csproj",
+  "expectedPackageFiles": [
+    "/Users/ricardoescamilla/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.31/microsoft.aspnetcore.app.ref.6.0.31.nupkg.sha512",
+    "/Users/ricardoescamilla/.nuget/packages/microsoft.netcore.app.host.osx-arm64/6.0.31/microsoft.netcore.app.host.osx-arm64.6.0.31.nupkg.sha512",
+    "/Users/ricardoescamilla/.nuget/packages/microsoft.netcore.app.ref/6.0.31/microsoft.netcore.app.ref.6.0.31.nupkg.sha512"
+  ],
+  "logs": []
+}
