@@ -1,0 +1,14 @@
+/Users/ricardoescamilla/Desarrollo/vs.projects/estadistica/estadistica/bin/Debug/net6.0/estadistica
+/Users/ricardoescamilla/Desarrollo/vs.projects/estadistica/estadistica/bin/Debug/net6.0/estadistica.deps.json
+/Users/ricardoescamilla/Desarrollo/vs.projects/estadistica/estadistica/bin/Debug/net6.0/estadistica.runtimeconfig.json
+/Users/ricardoescamilla/Desarrollo/vs.projects/estadistica/estadistica/bin/Debug/net6.0/estadistica.dll
+/Users/ricardoescamilla/Desarrollo/vs.projects/estadistica/estadistica/bin/Debug/net6.0/estadistica.pdb
+/Users/ricardoescamilla/Desarrollo/vs.projects/estadistica/estadistica/obj/Debug/net6.0/estadistica.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ricardoescamilla/Desarrollo/vs.projects/estadistica/estadistica/obj/Debug/net6.0/estadistica.AssemblyInfoInputs.cache
+/Users/ricardoescamilla/Desarrollo/vs.projects/estadistica/estadistica/obj/Debug/net6.0/estadistica.AssemblyInfo.cs
+/Users/ricardoescamilla/Desarrollo/vs.projects/estadistica/estadistica/obj/Debug/net6.0/estadistica.csproj.CoreCompileInputs.cache
+/Users/ricardoescamilla/Desarrollo/vs.projects/estadistica/estadistica/obj/Debug/net6.0/estadistica.dll
+/Users/ricardoescamilla/Desarrollo/vs.projects/estadistica/estadistica/obj/Debug/net6.0/refint/estadistica.dll
+/Users/ricardoescamilla/Desarrollo/vs.projects/estadistica/estadistica/obj/Debug/net6.0/estadistica.pdb
+/Users/ricardoescamilla/Desarrollo/vs.projects/estadistica/estadistica/obj/Debug/net6.0/estadistica.genruntimeconfig.cache
+/Users/ricardoescamilla/Desarrollo/vs.projects/estadistica/estadistica/obj/Debug/net6.0/ref/estadistica.dll

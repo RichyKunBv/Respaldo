@@ -1,0 +1,10 @@
+C:\Ñ\vs.projects\Estadistica\Estadistica\bin\Debug\Estadistica.exe.config
+C:\Ñ\vs.projects\Estadistica\Estadistica\bin\Debug\Estadistica.exe
+C:\Ñ\vs.projects\Estadistica\Estadistica\bin\Debug\Estadistica.pdb
+C:\Ñ\vs.projects\Estadistica\Estadistica\obj\Debug\Estadistica.csproj.AssemblyReference.cache
+C:\Ñ\vs.projects\Estadistica\Estadistica\obj\Debug\Estadistica.Form1.resources
+C:\Ñ\vs.projects\Estadistica\Estadistica\obj\Debug\Estadistica.Properties.Resources.resources
+C:\Ñ\vs.projects\Estadistica\Estadistica\obj\Debug\Estadistica.csproj.GenerateResource.cache
+C:\Ñ\vs.projects\Estadistica\Estadistica\obj\Debug\Estadistica.csproj.CoreCompileInputs.cache
+C:\Ñ\vs.projects\Estadistica\Estadistica\obj\Debug\Estadistica.exe
+C:\Ñ\vs.projects\Estadistica\Estadistica\obj\Debug\Estadistica.pdb
