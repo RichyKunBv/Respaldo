@@ -1,0 +1,15 @@
+/Users/ricardoescamilla/Desarrollo/vs.projects/Grados/Grados/bin/Debug/net6.0/Grados
+/Users/ricardoescamilla/Desarrollo/vs.projects/Grados/Grados/bin/Debug/net6.0/Grados.deps.json
+/Users/ricardoescamilla/Desarrollo/vs.projects/Grados/Grados/bin/Debug/net6.0/Grados.runtimeconfig.json
+/Users/ricardoescamilla/Desarrollo/vs.projects/Grados/Grados/bin/Debug/net6.0/Grados.dll
+/Users/ricardoescamilla/Desarrollo/vs.projects/Grados/Grados/bin/Debug/net6.0/Grados.pdb
+/Users/ricardoescamilla/Desarrollo/vs.projects/Grados/Grados/obj/Debug/net6.0/Grados.csproj.AssemblyReference.cache
+/Users/ricardoescamilla/Desarrollo/vs.projects/Grados/Grados/obj/Debug/net6.0/Grados.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ricardoescamilla/Desarrollo/vs.projects/Grados/Grados/obj/Debug/net6.0/Grados.AssemblyInfoInputs.cache
+/Users/ricardoescamilla/Desarrollo/vs.projects/Grados/Grados/obj/Debug/net6.0/Grados.AssemblyInfo.cs
+/Users/ricardoescamilla/Desarrollo/vs.projects/Grados/Grados/obj/Debug/net6.0/Grados.csproj.CoreCompileInputs.cache
+/Users/ricardoescamilla/Desarrollo/vs.projects/Grados/Grados/obj/Debug/net6.0/Grados.dll
+/Users/ricardoescamilla/Desarrollo/vs.projects/Grados/Grados/obj/Debug/net6.0/refint/Grados.dll
+/Users/ricardoescamilla/Desarrollo/vs.projects/Grados/Grados/obj/Debug/net6.0/Grados.pdb
+/Users/ricardoescamilla/Desarrollo/vs.projects/Grados/Grados/obj/Debug/net6.0/Grados.genruntimeconfig.cache
+/Users/ricardoescamilla/Desarrollo/vs.projects/Grados/Grados/obj/Debug/net6.0/ref/Grados.dll
