@@ -1,0 +1,5 @@
+/Users/ricardoescamilla/Desarrollo/rider.projects/DataWareHouse/DataWareHouse/obj/Debug/net7.0/DataWareHouse.csproj.AssemblyReference.cache
+/Users/ricardoescamilla/Desarrollo/rider.projects/DataWareHouse/DataWareHouse/obj/Debug/net7.0/DataWareHouse.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ricardoescamilla/Desarrollo/rider.projects/DataWareHouse/DataWareHouse/obj/Debug/net7.0/DataWareHouse.AssemblyInfoInputs.cache
+/Users/ricardoescamilla/Desarrollo/rider.projects/DataWareHouse/DataWareHouse/obj/Debug/net7.0/DataWareHouse.AssemblyInfo.cs
+/Users/ricardoescamilla/Desarrollo/rider.projects/DataWareHouse/DataWareHouse/obj/Debug/net7.0/DataWareHouse.csproj.CoreCompileInputs.cache
