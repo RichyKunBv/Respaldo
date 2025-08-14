@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Devart (www.devart.com), Documenter document file -->
+<!-- Modifying this generated file will probably render it invalid -->
+<SerializationModel Version="1.1">
+  <Servers>
+    <ConnectionModel Name="localhost">
+      <PropertyValue Name="Database">59f90733-4d68-4fdf-82a7-f0fcbf5460aa</PropertyValue>
+      <PropertyValue Name="Id">6b94712b-7ee5-4b1f-8a5b-548c84d8c535</PropertyValue>
+      <PropertyValue Name="ConnectionString" xml:space="preserve">User Id=root;Host=localhost;Character Set=utf8</PropertyValue>
+    </ConnectionModel>
+  </Servers>
+  <Settings>
+    <Autor />
+    <Copyright>Copyright © All Rights Reserved</Copyright>
+    <CreatedDateFormat>dd/MM/yyyy</CreatedDateFormat>
+    <Description />
+    <EnableBreadcrumbs>true</EnableBreadcrumbs>
+    <Header />
+    <Title>localhost</Title>
+    <TitleImage>logo.svg</TitleImage>
+    <Style>bootstrap/Default Dark.css</Style>
+    <FileFormat>Pdf</FileFormat>
+    <FormatOptions d3p1:type="PdfOptionsSerializationModel" xmlns:d3p1="http://www.w3.org/2001/XMLSchema-instance">
+      <PaperKind>A4</PaperKind>
+      <PaperSize>
+        <Width>595.2756</Width>
+        <Height>841.8898</Height>
+      </PaperSize>
+      <Landscape>false</Landscape>
+      <FontScale>100</FontScale>
+      <PageNumbering>false</PageNumbering>
+    </FormatOptions>
+    <OpenAfterGeneration>true</OpenAfterGeneration>
+    <AppendTimestamp>true</AppendTimestamp>
+    <Path>C:\Users\patat\Documents</Path>
+    <Output>localhost</Output>
+  </Settings>
+  <IncludedSection>
+    <Section Uid="Root[Project].CoverPage[CoverPage]" Included="true" />
+    <Section Uid="Root[Project].List[Servers].Server[localhost].List[Databases].Database[serviziogas]" Included="true" />
+  </IncludedSection>
+</SerializationModel>
