@@ -86,7 +86,6 @@ public class App {
     }
 
     private static void mostrarYGuardarEnTxt(ArrayList<Entry> entries) {
-        // Calculate total and IVA
         int totalSinIVA = 0;
         for (Entry entry : entries) {
             totalSinIVA += entry.totalCtd;
@@ -98,7 +97,6 @@ public class App {
             System.out.println("Cantidad: " + entry.cantidad + ", Concepto: " + entry.concepto + ", P.U: " + entry.PU + ", Total Ctd: " + entry.totalCtd);
         }
 
-        // Manual sorting by cantidad (insertion sort)
         for (int i = 1; i < entries.size(); i++) {
             Entry key = entries.get(i);
             int j = i - 1;
@@ -109,18 +107,15 @@ public class App {
             entries.set(j + 1, key);
         }
 
-        // Display sorted list
         System.out.println("\nDatos ordenados por cantidad:");
         for (Entry entry : entries) {
             System.out.println("Cantidad: " + entry.cantidad + ", Concepto: " + entry.concepto + ", P.U: " + entry.PU + ", Total Ctd: " + entry.totalCtd);
         }
 
-        // Display total and IVA
         System.out.println("\nTotal sin IVA: " + totalSinIVA);
         System.out.println("IVA (16%): " + IVA);
         System.out.println("Total con IVA: " + (totalSinIVA + IVA));
 
-        // Save to txt
         try (FileWriter writer = new FileWriter("entries.txt")) {
             writer.write("Cantidad\tConcepto\tP.U\tTotal Ctd\n");
             for (Entry entry : entries) {
