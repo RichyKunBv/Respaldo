@@ -1,0 +1,34 @@
+public class Appt {
+
+    public static String getFigure(int value) {
+        String figure = "";
+        if (value == 1) {
+            return "*";
+        }
+        for (int x = 1; x <= value; x++) {
+            for (int y = 1; y <= x; y++) {
+                figure += "*";
+            }
+            figure += "\n";
+        }
+        return figure;
+    }
+
+    // Función que lee datos del usuario
+    public static int getIntegerValue(String message) {
+        do {
+            try {
+                System.out.print(message);
+                return (new java.util.Scanner(System.in)).nextInt();
+            } catch (Exception exception) {
+                System.out.println(exception.getMessage());
+            }
+        } while (true);
+    }
+
+    public static void main(String[] args) {
+        // Ejemplo de uso de getFigure y getIntegerValue
+        int value = getIntegerValue("Ingrese un valor: ");
+        System.out.println(getFigure(value));
+    }
+}

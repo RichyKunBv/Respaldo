@@ -1,0 +1,14 @@
+/Users/rivenescamilla/ExamenDiagnostico/bin/Debug/net10.0/ExamenDiagnostico
+/Users/rivenescamilla/ExamenDiagnostico/bin/Debug/net10.0/ExamenDiagnostico.deps.json
+/Users/rivenescamilla/ExamenDiagnostico/bin/Debug/net10.0/ExamenDiagnostico.runtimeconfig.json
+/Users/rivenescamilla/ExamenDiagnostico/bin/Debug/net10.0/ExamenDiagnostico.dll
+/Users/rivenescamilla/ExamenDiagnostico/bin/Debug/net10.0/ExamenDiagnostico.pdb
+/Users/rivenescamilla/ExamenDiagnostico/obj/Debug/net10.0/ExamenDiagnostico.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rivenescamilla/ExamenDiagnostico/obj/Debug/net10.0/ExamenDiagnostico.AssemblyInfoInputs.cache
+/Users/rivenescamilla/ExamenDiagnostico/obj/Debug/net10.0/ExamenDiagnostico.AssemblyInfo.cs
+/Users/rivenescamilla/ExamenDiagnostico/obj/Debug/net10.0/ExamenDiagnostico.csproj.CoreCompileInputs.cache
+/Users/rivenescamilla/ExamenDiagnostico/obj/Debug/net10.0/ExamenDiagnostico.dll
+/Users/rivenescamilla/ExamenDiagnostico/obj/Debug/net10.0/refint/ExamenDiagnostico.dll
+/Users/rivenescamilla/ExamenDiagnostico/obj/Debug/net10.0/ExamenDiagnostico.pdb
+/Users/rivenescamilla/ExamenDiagnostico/obj/Debug/net10.0/ExamenDiagnostico.genruntimeconfig.cache
+/Users/rivenescamilla/ExamenDiagnostico/obj/Debug/net10.0/ref/ExamenDiagnostico.dll

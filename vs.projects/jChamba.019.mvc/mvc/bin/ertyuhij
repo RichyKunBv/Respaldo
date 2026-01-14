@@ -1,0 +1,45 @@
+import java.util.Scanner;
+
+public class App {
+
+    public static String getFigure(int value) {
+        String figure = "";
+        if (value == 1) {
+            return "*";
+        }
+        for (int x = 1; x <= value; x++) {
+            for (int y = 1; y <= x; y++) {
+                figure += " *";
+            }
+            figure += "\n";
+        }
+        return figure;
+    }
+
+    // Función que lee datos del usuario
+    public static int getIntegerValue(String message) {
+        Scanner scanner = new Scanner(System.in);
+        while (true) {
+            try {
+                System.out.print(message);
+                return scanner.nextInt();
+            } catch (Exception exception) {
+                System.out.println("Error: " + exception.getMessage());
+                scanner.next(); // Limpiar el buffer del scanner
+            }
+        }
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Ingresa la base (entre 1 y 30): ");
+        int value = scanner.nextInt();
+        if (value < 1 || value > 30) {
+            System.out.println("La base debe estar entre 1 y 30.");
+            return;
+        }
+
+        String result = getFigure(value);
+        System.out.println(result);
+    }
+}
