@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.Pages.LoginPage"
+             Title="LoginPage">
+        
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="estiloLabel" TargetType="Label">
+                <Setter Property="FontSize" Value="16" />
+                <Setter Property="TextColor" Value="#333333" />
+                <Setter Property="FontAttributes" Value="Bold" />
+                <Setter Property="Margin" Value="0,10,0,0" />
+            </Style>
+            
+            <Style x:Key="estiloBoton" TargetType="Button">
+                <Setter Property="CornerRadius" Value="8" />
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="FontAttributes" Value="Bold" />
+                <Setter Property="HeightRequest" Value="45" />
+            </Style>
+            
+            <Style x:Key="botonPrimario" TargetType="Button" BasedOn="{StaticResource estiloBoton}">
+                <Setter Property="BackgroundColor" Value="#005eb8" />
+            </Style>
+            
+            <Style x:Key="botonSecundario" TargetType="Button" BasedOn="{StaticResource estiloBoton}">
+                <Setter Property="BackgroundColor" Value="Green" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    
+    <ContentPage.Content>
+        <VerticalStackLayout Padding="30" Spacing="15" VerticalOptions="Center">
+            
+            <Label Text="Ingrese Usuario" Style="{StaticResource estiloLabel}" />
+            <Entry Placeholder="Usuario" 
+                   TextColor="#000" 
+                   FontSize="14" 
+                   Text="{Binding nombreUsuario}" />
+            
+            <Label Text="Ingrese una Contraseña" Style="{StaticResource estiloLabel}" />
+            <Entry IsPassword="True" 
+                   Placeholder="•••••••••" 
+                   TextColor="#000" 
+                   FontSize="14" 
+                   Text="{Binding contra}" />
+            
+            <BoxView HeightRequest="15" Color="Transparent" />
+            
+            <Button x:Name="btnIngresar" 
+                    Text="Hiniciar Sezion" 
+                    Clicked="BtnIngresar_OnClicked" 
+                    Style="{StaticResource botonPrimario}" />
+                    
+            <Button x:Name="btnInfo" 
+                    Text="Informasion" 
+                    Clicked="BtnInfo_OnClicked" 
+                    Style="{StaticResource botonSecundario}" />
+                    
+        </VerticalStackLayout>
+    </ContentPage.Content>
+    
+</ContentPage>
