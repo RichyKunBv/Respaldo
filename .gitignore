@@ -1,0 +1,158 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+*.swp
+*.swo
+*~
+.vscode/settings.json
+.vscode/launch.json
+
+# IDE - Visual Studio / Rider
+.vs/
+.idea/
+*.sln.iml
+*.user
+*.VC.db
+bin/
+obj/
+.vs
+.rider/
+*.suo
+.ReSharper*
+
+# IDE - Visual Studio Code
+.vscode/
+*.code-workspace
+
+# IDE - NetBeans
+nbproject/
+private/
+build/
+nbbuild/
+dist/
+nbdist/
+
+# Java/Maven
+target/
+.classpath
+.project
+.settings/
+*.jar
+*.war
+*.ear
+*.class
+.gradle/
+gradlew
+gradlew.bat
+.gradle
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.coverage
+*.egg
+.venv
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+.npm
+
+# Arduino
+.ino.cpp
+.hex
+.eep
+.elf
+.with_bootloader.hex
+
+# Blender
+*.blend1
+*.blend2
+*.tmp
+
+# Balsamiq
+*.bmpr~
+
+# C/C++
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+*.out
+*.app
+*.gch
+
+# C#/.NET
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.suo
+
+# Temporales y compilados generales
+*.o
+*.obj
+*.a
+*.lib
+*.exe
+*.com
+*.dylib
+*.so
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
+*.log
+.tmp/
+
+# Archivos del sistema
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Carpetas de caché
+.cache/
+cache/
+
+# Archivos de contraseñas y secretos
+.env
+.env.local
+secrets.json
+private.key
+
+# VS Code workspace settings (local)
+.vscode/settings.json
+.vscode/launch.json
+.vscode/extensions.json
+
+# Rider workspace
+.idea/
+
+# Archivos de configuración local
+local.properties
+gradle.properties
+
+# Logs
+*.log
+logs/
+
+# Directorios de salida comunes
+dist/
+build/
+out/

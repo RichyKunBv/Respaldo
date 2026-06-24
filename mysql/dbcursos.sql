@@ -1,0 +1,136 @@
+CREATE DATABASE IF NOT EXISTS db_escuela_curso;
+USE db_escuela_curso;
+
+CREATE TABLE Curso (
+CNO CHAR(3) NOT NULL,
+CNOMBRE VARCHAR(30) NOT NULL,
+CDESCP VARCHAR(25) NOT NULL,
+CRED INT NOT NULL,
+CTARIFA DECIMAL(5,2) NOT NULL,
+CDEPT CHAR(4) NOT NULL
+);
+
+INSERT INTO Curso (CNO,CNOMBRE,CDESCP,CRED,CTARIFA,CDEPT) VALUES
+('C11', 'Introd. a las CC.','Para novatos',3,100.00,'CIS'),
+('C22','Estruct. de datos','Muy útil',3,50.00,'CIS'),
+('C33','Matemáticas discretas','Absolutamente necesario',3,0.00,'CIS'),
+('C44','Circuitos digitales','Ah Ha\!',3,0.00,'CIS'),
+('C55','Arquitect. Computadores','Máq. Von Neumann',3,100.00,'CIS'),
+('C66','Bases de datos relacionales','Imprescindible',3,500.00,'CIS'),
+('P11','Empirismo','Verlo para creerlo',3,100.00,'PHIL'),
+('P22','Racionalismo','Para usarlos CIS',3,50.00,'PHIL'),
+('P33','Existencialismo','Para usarlos CIS',3,200.00,'PHIL'),
+('P44','Solipismo','Para mí mismo',6,0.00,'PHIL'),
+('T11','Escolasticismo','Para beatos',3,150.00,'THEO'),
+('T22','Fundamentalismo','Para descuidados',3,90.00,'THEO'),
+('T33','Hedonismo','Para sanos',3,0.00,'THEO'),
+('T44','Comunismo','Para ávaros',6,200.00,'THEO');
+
+CREATE TABLE Departamento (
+DEPT CHAR(4) NOT NULL,
+DEDIF CHAR (2) NOT NULL,
+DDESPACHO INT NOT NULL,
+DCHFNO CHAR(3)
+);
+
+INSERT INTO Departamento (DEPT,DEDIF,DDESPACHO,DCHFNO) VALUES
+('THEO','HU',200,'10'),
+('CIS','SC',300,'80'),
+('D.G','SC',100,NULL),
+('PHIL','HU',100,'60');
+
+CREATE TABLE Matricula (
+CNO CHAR(3) NOT NULL,
+SEC CHAR(2) NOT NULL,
+SNO CHAR(3) NOT NULL,
+FECMAT DATE NOT NULL,
+HORAMAT TIME NOT NULL
+);
+
+INSERT INTO Matricula (CNO, SEC, SNO, FECMAT, HORAMAT) VALUES
+('C11','01','325','1987-01-04','09:41:30'),
+('C11','01','800','1987-12-15','11:49:00'),
+('C11','02','100','1987-12-17','09:32:00'),
+('C11','02','150','1987-12-17','09:32:30'),
+('P33','01','100','1987-12-23','11:30:00'),
+('P33','01','800','1987-12-23','11:23:00'),
+('T11','01','100','1987-12-23','11:21:00'),
+('T11','01','150','1987-12-15','11:35:30'),
+('T11','01','800','1987-12-15','14:00:00');
+
+CREATE TABLE Clase (
+CNO CHAR(3) NOT NULL,
+SEC CHAR(2) NOT NULL,
+CINSTRFNO CHAR(3) NOT NULL,
+CDIA CHAR(2) NOT NULL,
+CHORA VARCHAR(15) NOT NULL,
+CEDIF CHAR(2) NOT NULL,
+CDESPACHO INT NOT NULL
+);
+
+INSERT INTO Clase (CNO,SEC,CINSTRFNO,CDIA,CHORA,CEDIF,CDESPACHO) VALUES
+('C11','01','08','Lu','08:00-09:00 AM','SC',305),
+('C11','02','08','Ma','08:00-09:00 AM','SC',306),
+('C33','01','80','Mi','09:00-10:00 AM','SC',305),
+('C55','01','85','Ju','11:00-12:00 AM','HU',306),
+('P11','01','06','Ju','09:00-10:00 AM','HU',102),
+('P33','01','06','Vi','11:00-12:00 AM','HU',201),
+('T11','01','10','Lu','10:00-11:00 AM','HU',101),
+('T11','02','65','Lu','10:00-11:00 AM','HU',102),
+('T33','01','65','Mi','11:00-12:00 AM','HU',101);
+
+CREATE TABLE Estudiante (
+SNO CHAR(3) NOT NULL,
+SNOMBRE VARCHAR(30) NOT NULL,
+SDOMI VARCHAR(20) NOT NULL,
+STLFNO CHAR(12) NOT NULL,
+SFNACIM DATE NOT NULL,
+SIQ SMALLINT NOT NULL,
+SADVFNO CHAR(3) NOT NULL,
+SESP CHAR(4) NOT NULL
+);
+
+INSERT INTO Estudiante (SNO,SNOMBRE,SDOMI,STLFNO,SFNACIM,SIQ,SADVFNO,SESP) VALUES
+('325','Curley Dubay','Connecticut','203-123-4567','1978-05-17',122,'10','THEO'),
+('150','Larry Dubay','Connecticut','203-123-4567','1978-05-17',121,'80','CIS'),
+('100','Moe Dubay','Connecticut','203-123-4567','1978-05-17',120,'10','THEO'),
+('800','Rocky Balboa','Pennsylvania','112-112-1122','1946-10-04',99,'60','PHIL');
+
+CREATE TABLE personal(
+enombre VARCHAR(15) NOT NULL,
+cargo   VARCHAR(10) NOT NULL,
+esueldo INTEGER NOT NULL,
+dept    CHAR(4)
+);
+
+INSERT INTO personal(enombre, cargo, esueldo, dept) VALUES
+('LUCAS', 'EVANG1', 53, 'THEO'),
+('MARCOS', 'EVANG2', 52, 'THEO'),
+('MATEO', 'EVANG3', 51, 'THEO'),
+('DICK NIX', 'LADRÓN', 25001, 'PHIL'),
+('HANK KISS', 'BUFÓN', 25000, 'PHIL'),
+('JUAN', 'EVANG4', 54, 'THEO'),
+('EUCLIDES', 'AYTE. LAB.', 1000, 'MATH'), 
+('ARQUIMEDES','AYTE. LAB.', 200, 'ENG'), 
+('DA VINCI', 'AYTE. LAB.', 500, NULL);
+
+CREATE TABLE claustro(
+FNO     CHAR(3) NOT NULL,  
+FNOMBRE VARCHAR(20) NOT NULL,  
+FDOMI VARCHAR(50),  
+FFCANTI DATE,  
+FNUMBEP SMALLINT,  
+FSUELDO DECIMAL(7,2),  
+FDEP CHAR(4)  
+);
+
+INSERT INTO claustro (FNO, FNOMBRE, FDOMI, FFCANTI, FNUMBEP, FSUELDO, FDEP) VALUES
+('06', 'KATHY PEPE', 'CALLE DE LA PIEDRA, 7', '1979-01-15', NULL, 35000.00, 'PHIL'),
+('10', 'JESSIE MARTIN', 'DR. DEL ESTE, 4', '1969-09-01', NULL, 45000.00, 'THEO'),
+('08', 'JOSE COHN', 'APTDO. CORREOS 1138', '1979-07-09', NULL, 35000.00, 'CIS'),
+('85', 'AL HARTLEY', 'CALLE DE LA PLATA', '1979-09-05', NULL, 45000.00, 'CS'), 
+('60', 'JULIA MARTIN', 'DR. ESTE, 4', '1969-09-01', NULL, 45000.00, 'PHIL'),
+('65', 'LISA BOBAK', 'CAMINO DE LA RISA, 77', '1981-09-06', NULL, 36000.00, 'THEO'),
+('80', 'BARB HLAVATY', 'CALLE DEL SUR, 489', '1982-01-16', NULL, 35000.00, 'CIS');
+
+
