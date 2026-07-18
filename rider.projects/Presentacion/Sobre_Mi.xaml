@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Presentacion.Sobre_Mi"
+             Title="Sobre mí"
+             BackgroundColor="#F5F7FA">
+    <ScrollView>
+        <Grid Padding="20" 
+              VerticalOptions="Center" 
+              HorizontalOptions="Center">
+
+            <Border StrokeShape="RoundRectangle 20"
+                    Stroke="#E0E0E0"
+                    StrokeThickness="1"
+                    BackgroundColor="White"
+                    MaximumWidthRequest="400"
+                    Padding="24">
+                <Border.Shadow>
+                    <Shadow Brush="Black" 
+                            Offset="0,10" 
+                            Radius="20" 
+                            Opacity="0.1" />
+                </Border.Shadow>
+
+                <Grid RowDefinitions="Auto, Auto, Auto, Auto, Auto, Auto" 
+                      RowSpacing="15">
+
+                    <Border Grid.Row="0"
+                            StrokeShape="RoundRectangle 60"
+                            WidthRequest="120"
+                            HeightRequest="120"
+                            HorizontalOptions="Center"
+                            Stroke="#6200EE"
+                            StrokeThickness="3">
+                        <Image Source="https://avatars.githubusercontent.com/u/81182181?v=4"
+                               Aspect="AspectFill"
+                               WidthRequest="120"
+                               HeightRequest="120" />
+                    </Border>
+
+                    <Label Grid.Row="1"
+                           Text="Ricardo Escamilla"
+                           FontSize="24"
+                           FontAttributes="Bold"
+                           TextColor="#212121"
+                           HorizontalOptions="Center" />
+
+                    <Label Grid.Row="2"
+                           Text="Inge en sistemas (todo un capo)"
+                           FontSize="16"
+                           TextColor="#6200EE"
+                           FontAttributes="Italic"
+                           HorizontalOptions="Center"
+                           Margin="0,-10,0,0" />
+
+                    <Label Grid.Row="3"
+                           Text="Creador del poderoso Mantenix y Ultraudio, ecu-ardor anda de lloron por perder viva mexico (en github nadie me comoce :VVV (RichyKunBv))"
+                           FontSize="14"
+                           TextColor="#757575"
+                           HorizontalTextAlignment="Center"
+                           LineBreakMode="WordWrap"
+                           Margin="0,5,0,5" />
+
+                    <HorizontalStackLayout Grid.Row="4"
+                                           Spacing="20"
+                                           HorizontalOptions="Center">
+                        <ImageButton Source="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+                                     WidthRequest="32"
+                                     HeightRequest="32"
+                                     Clicked="OnRedSocialClicked" />
+                        <ImageButton Source="https://cdn-icons-png.flaticon.com/512/174/174857.png"
+                                     WidthRequest="32"
+                                     HeightRequest="32"
+                                     Clicked="OnRedSocialClicked" />
+                        <ImageButton Source="https://cdn-icons-png.flaticon.com/512/733/733579.png"
+                                     WidthRequest="32"
+                                     HeightRequest="32"
+                                     Clicked="OnRedSocialClicked" />
+                    </HorizontalStackLayout>
+
+                    <Button Grid.Row="5"
+                            Text="Contactar"
+                            BackgroundColor="#6200EE"
+                            TextColor="White"
+                            FontAttributes="Bold"
+                            CornerRadius="25"
+                            HeightRequest="50"
+                            Margin="0,10,0,0"
+                            Clicked="OnContactarClicked" />
+
+                </Grid>
+            </Border>
+        </Grid>
+    </ScrollView>
+</ContentPage>

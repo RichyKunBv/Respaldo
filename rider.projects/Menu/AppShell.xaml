@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="Menu.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Menu"
+    Shell.FlyoutBehavior="Flyout"> <!-- Asegura que el menú lateral esté activo -->
+
+    <!-- 1. Acerca de -->
+    <FlyoutItem Title="Acerca de">
+        <ShellContent ContentTemplate="{DataTemplate local:AcercaDePage}" />
+    </FlyoutItem>
+
+    <!-- 2, 3 y 4. Tipos de Comida (Agrupados en Pestañas pero visibles en el menú lateral) -->
+    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
+        <Tab Title="Platillos">
+            <ShellContent ContentTemplate="{DataTemplate local:PlatillosPage}" />
+        </Tab>
+        <Tab Title="Bebidas">
+            <ShellContent ContentTemplate="{DataTemplate local:BebidasPage}" />
+        </Tab>
+        <Tab Title="Postres">
+            <ShellContent ContentTemplate="{DataTemplate local:PostresPage}" />
+        </Tab>
+    </FlyoutItem>
+
+    <!-- 5. Contacto -->
+    <FlyoutItem Title="Contacto">
+        <ShellContent ContentTemplate="{DataTemplate local:ContactoPage}" />
+    </FlyoutItem>
+
+</Shell>

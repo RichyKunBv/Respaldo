@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FlyoutPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:local="clr-namespace:Presentacion"
+            x:Class="Presentacion.MainPage">
+
+    <FlyoutPage.Flyout>
+        <ContentPage Title="Menú" BackgroundColor="#FFFFFF">
+            <VerticalStackLayout Padding="20" Spacing="10" Margin="0,40,0,0">
+                <Label Text="Navegación" 
+                       FontSize="20" 
+                       FontAttributes="Bold" 
+                       TextColor="#6200EE" 
+                       Margin="0,0,0,20"/>
+                
+                <Button Text="Sobre mí" 
+                        BackgroundColor="Transparent" 
+                        TextColor="#212121" 
+                        HorizontalOptions="Start" 
+                        Clicked="OnMenuItemClicked" />
+                
+                <Button Text="Educación" 
+                        BackgroundColor="Transparent" 
+                        TextColor="#212121" 
+                        HorizontalOptions="Start" 
+                        Clicked="OnMenuItemClicked" />
+                
+                <Button Text="Experiencia laboral" 
+                        BackgroundColor="Transparent" 
+                        TextColor="#212121" 
+                        HorizontalOptions="Start" 
+                        Clicked="OnMenuItemClicked" />
+                
+                <Button Text="Proyectos" 
+                        BackgroundColor="Transparent" 
+                        TextColor="#212121" 
+                        HorizontalOptions="Start" 
+                        Clicked="OnMenuItemClicked" />
+                
+                <Button Text="Contacto" 
+                        BackgroundColor="Transparent" 
+                        TextColor="#212121" 
+                        HorizontalOptions="Start" 
+                        Clicked="OnMenuItemClicked" />
+            </VerticalStackLayout>
+        </ContentPage>
+    </FlyoutPage.Flyout>
+
+    <FlyoutPage.Detail>
+        <NavigationPage>
+            <x:Arguments>
+                <local:Sobre_Mi />
+            </x:Arguments>
+        </NavigationPage>
+    </FlyoutPage.Detail>
+
+</FlyoutPage>

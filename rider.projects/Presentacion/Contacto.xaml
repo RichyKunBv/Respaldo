@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Presentacion.Contacto"
+             Title="Contacto">
+    <VerticalStackLayout Padding="20" Spacing="10">
+        <Label Text="Contacto" FontSize="24" FontAttributes="Bold" HorizontalOptions="Center" />
+        <Label Text="https://github.com/RichyKunBv" HorizontalOptions="Center" />
+        <Label Text="https://www.twitch.tv/richykunbv" HorizontalOptions="Center" />
+        <Label Text="https://www.youtube.com/@RichyKunBv" HorizontalOptions="Center" />
+    </VerticalStackLayout>
+</ContentPage>

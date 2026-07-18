@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Presentacion.Educacion"
+             Title="Educación">
+    <VerticalStackLayout Padding="20" Spacing="10">
+        <Label Text="Educación" FontSize="24" FontAttributes="Bold" HorizontalOptions="Center" />
+        <Label Text="Preparatoria UVM modalidad UNAM, Area 1" HorizontalOptions="Center" />
+        <Label Text="UNIVDEP, Ingenieria en Sistemas" HorizontalOptions="Center" />
+        <Label Text="UNIVDEP, Maestria en Ciencia de Datos (Proximamente)" HorizontalOptions="Center" />
+    </VerticalStackLayout>
+</ContentPage>
