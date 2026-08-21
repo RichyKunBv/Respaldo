@@ -1,9 +1,0 @@
-﻿namespace webo;
-
-public partial class AppShell : Shell
-{
-	public AppShell()
-	{
-		InitializeComponent();
-	}
-}

@@ -1,5 +1,0 @@
-mysql-connector==2.2.9
-mysql-connector-python==9.7.0
-numpy==2.4.6
-openpyxl==3.10.10
-pandas==2.0.3
